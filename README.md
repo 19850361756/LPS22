@@ -6,7 +6,7 @@ Author: shaoziyang
 Date:   2019.Jul  
 
 ## Basic usage
-```
+```blocks
 basic.forever(function () {
     serial.writeValue("T", LPS22.temperature(LPS22.LPS22_T_UNIT.C))
     serial.writeValue("P", LPS22.pressure(LPS22.LPS22_P_UNIT.hPa))
